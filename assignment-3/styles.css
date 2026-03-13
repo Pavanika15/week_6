@@ -1,0 +1,121 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.row1{
+    background:url(https://i.postimg.cc/jS2vn2kR/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1-text{
+    color: rgb(240, 236, 137);
+    text-align: center;
+}
+.row1-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.row1-text button{
+    border: none;
+    margin-top: 20px;
+    background-color: coral;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.row2-text h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkcyan;
+    font-size: 28px;
+}
+.row2-text p{
+    color: rgb(158, 153, 153);
+    line-height: 1.6;
+}
+
+.row2-img{
+    margin-right: 20px;
+    
+}
+
+.row3{
+    padding: 60px;
+}
+
+.row3-container{
+    display: flex;
+    gap: 40px;
+    /* align-items: flex-start; */
+}
+
+.row3-text{
+    width: 20%;
+}
+
+.row3-text h2{
+    font-size: 28px;
+    color: darkcyan;
+}
+
+.row3-img{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.row3-img img{
+    width: 80%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+.row4{
+    text-align: center;
+    padding-top: 60px ;
+    color: darkcyan;
+}
+.row4-but{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.row4-but a{
+    text-decoration: none;
+    color:rgb(202, 29, 113);
+    /* background-color: coral; */
+    /* color: white;
+    padding: 12px 25px;
+    border-radius: 25px; */
+    /* font-weight: bold; */
+    transition: 0.3s ease;
+}
+
+.row4-but a:hover{
+    color: rgb(237, 177, 236);
+}
+
